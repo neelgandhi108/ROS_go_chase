@@ -22,7 +22,37 @@ Concepts explored in this project:
 - Gazebo Plugins
 - Rviz
 
+## Tasks
+Robot model
 
+Lidar and camera sensors.
+Gazebo plugins for the robot’s differential drive, lidar, and camera.
+Housed inside the world
+Significant changes from the sample taught in the project lesson.
+Robot is stable when moving
+Gazebo world
+
+Same as the world designed in the Build My World project or a new world that you design on the building editor for this project.
+Includes a white-colored ball
+drive_bot requirements:
+
+A ball_chaser/command_robot service.
+Service accepts linear x and angular z velocities.
+Service publishes to the the wheel joints.
+Service returns the requested velocities.
+process_image requirements:
+
+Subscribes to the robot’s camera image.
+A function to analyze the image and determine the presence and position of a white ball.
+Requests a service to drive the robot towards a white ball (when present).
+world.launch requirements:
+
+Launch the world (which includes a white ball).
+Launch the robot.
+ball_chaser.launch requirements:
+
+Run the drive_bot C++ node.
+Run the process_image C++ node.
   
 
    
