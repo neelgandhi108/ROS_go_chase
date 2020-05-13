@@ -1,5 +1,3 @@
-[![Udacity - Robotics NanoDegree Program](https://camo.githubusercontent.com/0f51a1a655e13e62c95e95dfe5850bf2c20b1dd6/68747470733a2f2f73332d75732d776573742d312e616d617a6f6e6177732e636f6d2f756461636974792d726f626f746963732f45787472612b496d616765732f526f626f4e445f666c61672e706e67)](https://www.udacity.com/robotics)
-
 # udacity-robond-p2
 
 Go Chase It! - Project 2 of the Udacity Robotics Software Engineer Nanodegree
@@ -24,11 +22,6 @@ Concepts explored in this project:
 - Gazebo Plugins
 - Rviz
 
-## Behavior
-
-* Notice that the robot has been set to keep rotating and scanning for the white ball by default.
-
-  <img src = "./docs/behavior.gif">
 
   
 
