@@ -2,7 +2,7 @@
 
 Go Chase It! - Project 2 of the Udacity Robotics Software Engineer Nanodegree
 
-![Alt text](./docs/robond.png)
+git clone:- https://github.com/neelgandhi108/ROS_go_chase.git
 
 ## Description
 
